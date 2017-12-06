@@ -1,1 +1,1 @@
-include "tasks-api", "tasks-service"
+include "tasks-api", "tasks-service", "tasks-test"
