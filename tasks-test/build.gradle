@@ -1,2 +1,1 @@
-apply plugin: "com.liferay.portal.tools.service.builder"
-
+//apply plugin: "com.liferay.portal.tools.service.builder"
