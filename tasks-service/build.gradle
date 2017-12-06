@@ -9,6 +9,7 @@ dependencies {
 
 buildService {
 	apiDir = "../tasks-api/src/main/java"
+	testDir = "../tasks-test/src/testIntegration/java"
 }
 
 group = "com.liferay.docs.tasks"
