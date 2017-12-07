@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68edf771-55fa-4e3c-b420-0209a3852ddc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks-test/bnd.bnd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks-test/build.gradle" afterPath="$PROJECT_DIR$/tasks-test/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks.ipr" afterPath="$PROJECT_DIR$/tasks.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks.iws" afterPath="$PROJECT_DIR$/tasks.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks-service/src/main/resources/service.properties" afterPath="$PROJECT_DIR$/tasks-service/src/main/resources/service.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -78,16 +75,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks-service/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -147,11 +134,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bnd.bnd" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bnd.bnd" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks-test/bnd.bnd">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
               <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FooPersistenceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tasks-test/src/testIntegration/java/com/liferay/docs/tasks/service/persistence/test/FooPersistenceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="66" column="13" lean-forward="false" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -2004,6 +2001,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testIntegration" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2293,12 +2320,12 @@
       <workItem from="1512566196503" duration="408000" />
       <workItem from="1512566647110" duration="1743000" />
       <workItem from="1512568473323" duration="3237000" />
-      <workItem from="1512635402216" duration="1197000" />
+      <workItem from="1512635402216" duration="1291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11202000" />
+    <option name="totallyTimeSpent" value="11296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1979" y="24" width="2501" height="1416" extended-state="6" />
@@ -2461,6 +2488,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2604,13 +2632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks-test/src/testIntegration/java/com/liferay/docs/tasks/service/persistence/test/FooPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -2695,6 +2716,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks-test/src/testIntegration/java/com/liferay/docs/tasks/service/persistence/test/FooPersistenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="66" column="13" lean-forward="false" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding />
         </state>
       </provider>
