@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <wildcardResourcePatterns>
-      <entry name="!?*.class" />
-      <entry name="!?*.scala" />
-      <entry name="!?*.java" />
-      <entry name="!?*.groovy" />
-    </wildcardResourcePatterns>
-    <bytecodeTargetLevel target="1.6">
+    <bytecodeTargetLevel>
       <module name="tasks-api_main" target="1.7" />
       <module name="tasks-api_test" target="1.7" />
       <module name="tasks-api_testIntegration" target="1.7" />
@@ -16,10 +10,27 @@
       <module name="tasks-service_testIntegration" target="1.7" />
     </bytecodeTargetLevel>
   </component>
-  <component name="DependencyValidationManager">
-    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  <component name="Encoding">
+    <file url="PROJECT" charset="UTF-8" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/git/blade-test/workspce" value="10227684107980" />
+        <entry key="$USER_HOME$/git/ee-6.2.x/liferay-plugins-ee/shared/amazon-tools-shared" value="436985449751416" />
+        <entry key="$USER_HOME$/git/ee-6.2.x/liferay-plugins-ee/webs/osb-lcs-gateway-web" value="17584626231216" />
+        <entry key="$USER_HOME$/git/ntlm-test" value="2939263510682" />
+        <entry key="$PROJECT_DIR$/../com-liferay-osb-lcs-private" value="22289141951828" />
+        <entry key="$PROJECT_DIR$/../ee-7.0.x/portal/modules/private/apps/lcs" value="2972241187538" />
+        <entry key="$PROJECT_DIR$" value="3025133951749" />
+        <entry key="$PROJECT_DIR$/tasks" value="3023936002335" />
+        <entry key="$USER_HOME$/prj/apps/voxxmailgrab" value="1428395079000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -35,6 +46,7 @@
             <option value="$PROJECT_DIR$/tasks-test" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
@@ -76,23 +88,101 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/tasks.iml" filepath="$PROJECT_DIR$/tasks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api_main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api_test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api_testIntegration.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api_testIntegration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_testIntegration.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_testIntegration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-test/tasks-test.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-test/tasks-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api.iml" group="tasks-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api_main.iml" group="tasks-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api_test.iml" group="tasks-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api_testIntegration.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-api/tasks-api_testIntegration.iml" group="tasks-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service.iml" group="tasks-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_main.iml" group="tasks-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_test.iml" group="tasks-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-test/tasks-test.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-test/tasks-test.iml" group="tasks-test" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Gradle: biz.aQute.bnd:biz.aQute.bndlib:3.1.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/biz.aQute.bnd/biz.aQute.bndlib/3.1.0/8e45564ca80bf089276a35f916e8702e7b798cbb/biz.aQute.bndlib-3.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/biz.aQute.bnd/biz.aQute.bndlib/3.1.0/58ab3de3dac4f7cfd835a711158d8ef7dfa2b872/biz.aQute.bndlib-3.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.liferay.portal:com.liferay.portal.kernel:2.0.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/liferay/portal/com.liferay.portal.kernel/2.0.0/com.liferay.portal.kernel-2.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.liferay.portal:com.liferay.portal.kernel:2.6.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay.portal/com.liferay.portal.kernel/2.6.0/a12d1ba010fe17f937dddf05f70560f037ee59d0/com.liferay.portal.kernel-2.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay.portal/com.liferay.portal.kernel/2.6.0/5523c86003f9aeacf5db03d74d10d70bf9a8d4b5/com.liferay.portal.kernel-2.6.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.liferay:com.liferay.osgi.util:3.0.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay/com.liferay.osgi.util/3.0.0/767e00ee82a0366b84238001a1aa74e490d61b57/com.liferay.osgi.util-3.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay/com.liferay.osgi.util/3.0.0/8f551c8cf19bd924455378a2d9180ca8f5abe970/com.liferay.osgi.util-3.0.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.liferay:com.liferay.portal.spring.extender:2.0.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay/com.liferay.portal.spring.extender/2.0.0/dfa1f7699d63063d5a8904ef06b612fc2f54f4c/com.liferay.portal.spring.extender-2.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay/com.liferay.portal.spring.extender/2.0.0/3e3efbebc18ceed1ae34028a0bb95f6afc086393/com.liferay.portal.spring.extender-2.0.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.osgi:org.osgi.core:6.0.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.osgi/org.osgi.core/6.0.0/c49acdc9ac62cf69ee49cb6f1905b4fdb79ea5c/org.osgi.core-6.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.osgi/org.osgi.core/6.0.0/347531f45363ed10e222b03231d49bb7df016a4d/org.osgi.core-6.0.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
