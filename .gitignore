@@ -1,3 +1,6 @@
 .gradle/
 build/
 target/
+tasks.ipr
+tasks.iws
+tasks.iml
