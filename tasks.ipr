@@ -8,6 +8,9 @@
       <module name="tasks-service_main" target="1.7" />
       <module name="tasks-service_test" target="1.7" />
       <module name="tasks-service_testIntegration" target="1.7" />
+      <module name="tasks-test_main" target="1.7" />
+      <module name="tasks-test_test" target="1.7" />
+      <module name="tasks-test_testIntegration" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding">
@@ -96,7 +99,11 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service.iml" group="tasks-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_main.iml" group="tasks-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_test.iml" group="tasks-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_testIntegration.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-service/tasks-service_testIntegration.iml" group="tasks-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-test/tasks-test.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-test/tasks-test.iml" group="tasks-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-test/tasks-test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-test/tasks-test_main.iml" group="tasks-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-test/tasks-test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-test/tasks-test_test.iml" group="tasks-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks-test/tasks-test_testIntegration.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks-test/tasks-test_testIntegration.iml" group="tasks-test" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.7" project-jdk-type="JavaSDK">
@@ -125,6 +132,52 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/biz.aQute.bnd/biz.aQute.bndlib/3.1.0/58ab3de3dac4f7cfd835a711158d8ef7dfa2b872/biz.aQute.bndlib-3.1.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: biz.aQute.bnd:bndlib:2.4.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/biz.aQute.bnd/bndlib/2.4.0/de13867e8e5d1f9d6b5ab5cbb16b6cfdbffdc6d2/bndlib-2.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/biz.aQute.bnd/bndlib/2.4.0/7b098d70eb95b675e54f124c4cd6b9b9e2f7dc22/bndlib-2.4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.google.guava:guava:18.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.liferay.arquillian:com.liferay.arquillian.arquillian-container-liferay:1.0.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay.arquillian/com.liferay.arquillian.arquillian-container-liferay/1.0.4/ab9c3c07644a4b99b0800ff6d749086ed9df9e56/com.liferay.arquillian.arquillian-container-liferay-1.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.liferay.arquillian:com.liferay.arquillian.arquillian-container-osgi-allin:1.0.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay.arquillian/com.liferay.arquillian.arquillian-container-osgi-allin/1.0.4/6f7dd9e280c38e7300f238e29e29052a1e57e870/com.liferay.arquillian.arquillian-container-osgi-allin-1.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.liferay.arquillian:com.liferay.arquillian.arquillian-portal-liferay-extension:1.0.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay.arquillian/com.liferay.arquillian.arquillian-portal-liferay-extension/1.0.4/cca2f150b3f793403eb9b152bb02c76e4cc6229a/com.liferay.arquillian.arquillian-portal-liferay-extension-1.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.liferay.arquillian:com.liferay.arquillian.arquillian-processor-osgi-allin:1.0.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay.arquillian/com.liferay.arquillian.arquillian-processor-osgi-allin/1.0.4/52fca2a9af55aa375f4633dace12adcd73c70c43/com.liferay.arquillian.arquillian-processor-osgi-allin-1.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="Gradle: com.liferay.portal:com.liferay.portal.kernel:2.0.0">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/liferay/portal/com.liferay.portal.kernel/2.0.0/com.liferay.portal.kernel-2.0.0.jar!/" />
@@ -139,6 +192,31 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay.portal/com.liferay.portal.kernel/2.6.0/5523c86003f9aeacf5db03d74d10d70bf9a8d4b5/com.liferay.portal.kernel-2.6.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.liferay:aQute.bnd:2.3.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay/aQute.bnd/2.3.0/6701930c122906eccd52723ec33b94fe296a2f53/aQute.bnd-2.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.liferay:com.liferay.arquillian.extension.junit.bridge:1.0.8">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay/com.liferay.arquillian.extension.junit.bridge/1.0.8/da4f8df21ebce3bffa52dd83c8ec06856b1067f7/com.liferay.arquillian.extension.junit.bridge-1.0.8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay/com.liferay.arquillian.extension.junit.bridge/1.0.8/51170d3bd41261cbc4d3b4b64dacba71e9ab8846/com.liferay.arquillian.extension.junit.bridge-1.0.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.liferay:com.liferay.hot.deploy.jmx.listener:1.0.0-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay/com.liferay.hot.deploy.jmx.listener/1.0.0-SNAPSHOT/6b5bfabbf16488b68923f0898b915fbe89ea69cc/com.liferay.hot.deploy.jmx.listener-1.0.0-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay/com.liferay.hot.deploy.jmx.listener/1.0.0-SNAPSHOT/de7916d453e4a7d6740a78eae233694d0348ac0e/com.liferay.hot.deploy.jmx.listener-1.0.0-SNAPSHOT-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: com.liferay:com.liferay.osgi.util:3.0.0">
@@ -159,6 +237,665 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay/com.liferay.portal.spring.extender/2.0.0/3e3efbebc18ceed1ae34028a0bb95f6afc086393/com.liferay.portal.spring.extender-2.0.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: commons-io:commons-io:2.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.2/commons-io-2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: commons-lang:commons-lang:2.6">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: javax.annotation:jsr250-api:1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: javax.enterprise:cdi-api:1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: javax.inject:javax.inject:1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: javax.portlet:portlet-api:2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/portlet/portlet-api/2.0/portlet-api-2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: javax.servlet:javax.servlet-api:3.0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.0.1/6bf0ebb7efd993e222fc1112377b5e92a13b38dd/javax.servlet-api-3.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.0.1/1952f91d84016a39e31346c9d18bd8c9c4a128a/javax.servlet-api-3.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: junit:junit:4.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: log4j:log4j:1.2.17">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.maven.wagon:wagon-file:2.6">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-file/2.6/b0d5a52db3b08e247dad16f76dbaa0fcb6e2874d/wagon-file-2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-file/2.6/74f41440657bc4d858d2f7a787c532fc92f8cd36/wagon-file-2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.maven.wagon:wagon-http-lightweight:2.6">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-http-lightweight/2.6/c83f3ee0c535f904669ff982876e6f5ad20b57e6/wagon-http-lightweight-2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-http-lightweight/2.6/82ba24651f40c56d25e5dfee1e144c518f6e5a54/wagon-http-lightweight-2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.maven.wagon:wagon-http-shared:2.6">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-http-shared/2.6/81e12a1d6cf896f1181b0d00c6e0b41be9767358/wagon-http-shared-2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-http-shared/2.6/1e0a0c49c4514ce89bc88554f625f21414669654/wagon-http-shared-2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.maven.wagon:wagon-provider-api:2.6">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-provider-api/2.6/62da5193bb8ccca0c0bcba0868d702e22f26b33a/wagon-provider-api-2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-provider-api/2.6/afd4b41123aa5e6f9aa8b4aa46269d8c16d2b82b/wagon-provider-api-2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.maven:maven-aether-provider:3.2.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-aether-provider/3.2.5/dfddf469d20b877b184dda5d6e60f0c75f558a72/maven-aether-provider-3.2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-aether-provider/3.2.5/4b70ad2a0a2f305278ee83c22f286fe14e65052f/maven-aether-provider-3.2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.maven:maven-model-builder:3.2.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model-builder/3.2.5/7a32f3966fab463df9cdae95fd6df8c2e561e3ae/maven-model-builder-3.2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model-builder/3.2.5/f13e0096acf5804b8de4594fae2a0a8708df6aab/maven-model-builder-3.2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.maven:maven-model:3.2.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/3.2.5/ced305476a43e8a042a59e94ef38b3291d9ce1e7/maven-model-3.2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/3.2.5/eb711c34d1e63e12494e37f6dd60c1908f45b0ef/maven-model-3.2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.maven:maven-repository-metadata:3.2.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-repository-metadata/3.2.5/17049c63ce63654c112eeb82797edee49f8a4601/maven-repository-metadata-3.2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-repository-metadata/3.2.5/12dddfba835bc376a77301ba7bc5c99dcdab031d/maven-repository-metadata-3.2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.maven:maven-settings-builder:3.2.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings-builder/3.2.5/7fd98de76398a3ff5c1d9a7b85f26cb65a862578/maven-settings-builder-3.2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings-builder/3.2.5/21ad01678d7ea4c2e3b08f8df7dce2ec8c9485db/maven-settings-builder-3.2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.maven:maven-settings:3.2.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.2.5/52179da78893ed7afea98d980c55e658fb04d9b4/maven-settings-3.2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.2.5/1f7f8c821221442ad29da47d2331456a2b70b144/maven-settings-3.2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.codehaus.plexus:plexus-compiler-api:2.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-compiler-api/2.3/a288dca07330a2faee3905498fe143c63994dd55/plexus-compiler-api-2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-compiler-api/2.3/a53699697c7e9262f981bdda5cc56b9b0375de66/plexus-compiler-api-2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.codehaus.plexus:plexus-compiler-javac:2.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-compiler-javac/2.3/df849db7e81b9e2d207699c6557d775f5d7d049c/plexus-compiler-javac-2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-compiler-javac/2.3/a79445eeb148abf30f81c2bddaa0bda2852d7656/plexus-compiler-javac-2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.codehaus.plexus:plexus-component-annotations:1.5.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.codehaus.plexus:plexus-interpolation:1.21">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.codehaus.plexus:plexus-utils:3.0.20">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.eclipse.aether:aether-api:1.0.0.v20140518">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-api/1.0.0.v20140518/be68e917f454dcd841865ad7cf9b7615b26a51f7/aether-api-1.0.0.v20140518.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-api/1.0.0.v20140518/6cc513c3253c2c5e5e2c52dca55c6cb2cdcccb9e/aether-api-1.0.0.v20140518-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.eclipse.aether:aether-connector-basic:1.0.0.v20140518">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-connector-basic/1.0.0.v20140518/fd563f66fc1b6b908934639f87b4e0a0f43809c3/aether-connector-basic-1.0.0.v20140518.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-connector-basic/1.0.0.v20140518/bc39c1835a2443a8ee772fdd5f65c3a4360ead02/aether-connector-basic-1.0.0.v20140518-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.eclipse.aether:aether-impl:1.0.0.v20140518">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.0.v20140518/a5ee67be2c99dfb95ad61235d749c92ae09c926e/aether-impl-1.0.0.v20140518.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.0.v20140518/f9e0dd92fc69de6358955ad05bdd8aa7f3f1a488/aether-impl-1.0.0.v20140518-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.eclipse.aether:aether-spi:1.0.0.v20140518">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-spi/1.0.0.v20140518/985a9a12b904fb3bafd4dc6b49f6a084845703a1/aether-spi-1.0.0.v20140518.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-spi/1.0.0.v20140518/762da4754b8652a40adae11be1613823d0eb5ff/aether-spi-1.0.0.v20140518-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.eclipse.aether:aether-transport-wagon:1.0.0.v20140518">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-transport-wagon/1.0.0.v20140518/19be874c32183409ed76fcd3ecc05b28f3e06e62/aether-transport-wagon-1.0.0.v20140518.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-transport-wagon/1.0.0.v20140518/bf78a8d96f1bf9635445c066ac5064fe3a90b3ed/aether-transport-wagon-1.0.0.v20140518-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.eclipse.aether:aether-util:1.0.0.v20140518">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.0.v20140518/7df5ba98ce8b78985d75fdd8c2981fe69234ef85/aether-util-1.0.0.v20140518.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.0.v20140518/682590645923e914fa12d4b3a52d23d2e266e17/aether-util-1.0.0.v20140518-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.eclipse.sisu:org.eclipse.sisu.inject:0.3.0.M1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.0.M1/702dd8cdca70b89f16073e3de062035d8ce2486c/org.eclipse.sisu.inject-0.3.0.M1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.0.M1/222ea5fe7beb77c024f8bf133c566a42c101dcf7/org.eclipse.sisu.inject-0.3.0.M1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.0.M1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.plexus/0.3.0.M1/5dd889c7c3fa83f24ab7435d94da2cfe0a16dedd/org.eclipse.sisu.plexus-0.3.0.M1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.plexus/0.3.0.M1/8fcf3310561af4d6f51b0b3d9d3b63c1745555e4/org.eclipse.sisu.plexus-0.3.0.M1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.hamcrest:hamcrest-core:1.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.config:arquillian-config-api:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.config/arquillian-config-api/1.1.10.Final/9be89e833fc9161a72c13778c41a868e1fc72274/arquillian-config-api-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.config/arquillian-config-api/1.1.10.Final/69a329f9d701e36fd86767db1545192440745cca/arquillian-config-api-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.config:arquillian-config-impl-base:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.config/arquillian-config-impl-base/1.1.10.Final/6816225e12017862d06bf502b8a33de163b84eb8/arquillian-config-impl-base-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.config/arquillian-config-impl-base/1.1.10.Final/555daa455743dc8dfa23c3a6a4131c8d93385c99/arquillian-config-impl-base-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.container:arquillian-container-impl-base:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-impl-base/1.1.10.Final/ef0b4e77deafbe8641d39893ab6b3101bd95018a/arquillian-container-impl-base-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-impl-base/1.1.10.Final/9c6f36eed82a65c4544dbfebb2601ae1b3937564/arquillian-container-impl-base-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.container:arquillian-container-karaf-remote:2.1.0.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-karaf-remote/2.1.0.Final/1f770689f41db6c790f28be2804361d90b367012/arquillian-container-karaf-remote-2.1.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-karaf-remote/2.1.0.Final/d8eae795ca90ecbbeb17c99cb22db96478b10912/arquillian-container-karaf-remote-2.1.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.container:arquillian-container-osgi:2.1.0.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-osgi/2.1.0.Final/9c35104d98539ac5a9d47b011d2c812434255cb0/arquillian-container-osgi-2.1.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-osgi/2.1.0.Final/c61056000d4e222b1871190fc779f72a3ba9319e/arquillian-container-osgi-2.1.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.container:arquillian-container-spi:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-spi/1.1.10.Final/8be9203469a1fe0d04fc8a3883d37c2a2f962f90/arquillian-container-spi-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-spi/1.1.10.Final/e3b3d873f74a22185382c743130c491a571a26f3/arquillian-container-spi-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.container:arquillian-container-test-api:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-test-api/1.1.10.Final/db209a55c549835ba0be70bce8c5ef24a1e5ead8/arquillian-container-test-api-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-test-api/1.1.10.Final/a53a62d0f29dfac9956d07ad08e2763a4f7eba3b/arquillian-container-test-api-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.container:arquillian-container-test-impl-base:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-test-impl-base/1.1.10.Final/c6ac6c64accc116ca5ce905f052d0a5e3cca18da/arquillian-container-test-impl-base-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-test-impl-base/1.1.10.Final/703a5e6ed1552ffb7b8e24a97c21647f924c77b5/arquillian-container-test-impl-base-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.container:arquillian-container-test-spi:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-test-spi/1.1.10.Final/a42d2d86d61e07e8bc56a7bf580ea5dff12b07c7/arquillian-container-test-spi-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.container/arquillian-container-test-spi/1.1.10.Final/4a58c22e832a8f270b5ba2d15437b18b73a5032/arquillian-container-test-spi-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.core:arquillian-core-api:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.core/arquillian-core-api/1.1.10.Final/36eee7254470d652c785149ebe537e3eb7a03758/arquillian-core-api-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.core/arquillian-core-api/1.1.10.Final/b10b267b0b5e98fbc03327cb12b7a957f9ca28d/arquillian-core-api-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.core:arquillian-core-impl-base:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.core/arquillian-core-impl-base/1.1.10.Final/5c933f59c34aa9d46666edb5962f9764c6563d23/arquillian-core-impl-base-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.core/arquillian-core-impl-base/1.1.10.Final/422241bf615c93e16a50c8f85123c570d662d9f5/arquillian-core-impl-base-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.core:arquillian-core-spi:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.core/arquillian-core-spi/1.1.10.Final/fffdff4c592d7791acc0117c586932990b8073e1/arquillian-core-spi-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.core/arquillian-core-spi/1.1.10.Final/643d52c2fc697ce280f40c8f0c5dca59ffca8e7c/arquillian-core-spi-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.junit:arquillian-junit-container:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.junit/arquillian-junit-container/1.1.10.Final/f8026e9ffa67adfbda8ee9914bb1dd17a221791c/arquillian-junit-container-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.junit/arquillian-junit-container/1.1.10.Final/625e462099dda0579fe01b1314b972f8e92d6c27/arquillian-junit-container-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.junit:arquillian-junit-core:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.junit/arquillian-junit-core/1.1.10.Final/aef50fd39ab33a4d3abae48e20bc2d310a236922/arquillian-junit-core-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.junit/arquillian-junit-core/1.1.10.Final/f65e714d1ad1c1a658cc1ba338e79634de52018a/arquillian-junit-core-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.protocol:arquillian-protocol-jmx:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.protocol/arquillian-protocol-jmx/1.1.10.Final/ec43c55290d22eff9b3fe72a2071af21c7a61838/arquillian-protocol-jmx-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.protocol/arquillian-protocol-jmx/1.1.10.Final/d949fc2c138516f781f091a8e8d6ba38240b584/arquillian-protocol-jmx-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.protocol:arquillian-protocol-osgi:2.1.0.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.protocol/arquillian-protocol-osgi/2.1.0.Final/edf2d39a2069fe9027706277c3795307b7f4cd12/arquillian-protocol-osgi-2.1.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.protocol/arquillian-protocol-osgi/2.1.0.Final/500e85ceb4f03534b213e31f115b8596bc1b4e90/arquillian-protocol-osgi-2.1.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.test:arquillian-test-api:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.test/arquillian-test-api/1.1.10.Final/6356b0d495c6c7de8d1dede7595840f9ca291aec/arquillian-test-api-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.test/arquillian-test-api/1.1.10.Final/36a4f9c8388eb5cca663699d4110fe6ff27201e8/arquillian-test-api-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.test:arquillian-test-impl-base:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.test/arquillian-test-impl-base/1.1.10.Final/3b691da4595eafc43c9b97009a141f9ce1d39aaf/arquillian-test-impl-base-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.test/arquillian-test-impl-base/1.1.10.Final/26fb2906277e58e297422b7fe96d7fa7da19d5da/arquillian-test-impl-base-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.test:arquillian-test-spi:1.1.10.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.test/arquillian-test-spi/1.1.10.Final/a6be52cfce0c42c790a4af29d2714fe94ce9df88/arquillian-test-spi-1.1.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.test/arquillian-test-spi/1.1.10.Final/855568ed0adb291289d4072f5709d45a8de375b8/arquillian-test-spi-1.1.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.arquillian.testenricher:arquillian-testenricher-osgi:2.1.0.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.testenricher/arquillian-testenricher-osgi/2.1.0.Final/565e9f40542e3f18de873fa1fd650ad7bb9222fc/arquillian-testenricher-osgi-2.1.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.testenricher/arquillian-testenricher-osgi/2.1.0.Final/fdca68277ad88e239a60479c96f16bf7d00620d0/arquillian-testenricher-osgi-2.1.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.logging:jboss-logging:3.1.3.GA">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/64499e907f19e5e1b3fdc02f81440c1832fe3545/jboss-logging-3.1.3.GA.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/4d2c4df2c1a1b2d2f9201f6d580d7d19ccf8cbdf/jboss-logging-3.1.3.GA-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.osgi.metadata:jbosgi-metadata:4.0.0.CR1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.osgi.metadata/jbosgi-metadata/4.0.0.CR1/afdfb20feb3f8577250108618139cd995e779d1d/jbosgi-metadata-4.0.0.CR1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.osgi.metadata/jbosgi-metadata/4.0.0.CR1/a938c1a3a81a9d462742d16953622718163c72db/jbosgi-metadata-4.0.0.CR1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.osgi.repository:jbosgi-repository-bundle:4.0.0.CR1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.osgi.repository/jbosgi-repository-bundle/4.0.0.CR1/423cbf9778770b202a7df41a735020af8a31f818/jbosgi-repository-bundle-4.0.0.CR1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.osgi.repository/jbosgi-repository-bundle/4.0.0.CR1/5effbb05e23ef0157c792b04cb5fc210e0168724/jbosgi-repository-bundle-4.0.0.CR1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.osgi.spi:jbosgi-spi:4.0.0.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.osgi.spi/jbosgi-spi/4.0.0.Final/dbd1d084682873871c3dff2cdf920f6f5fc16940/jbosgi-spi-4.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.osgi.spi/jbosgi-spi/4.0.0.Final/24fdcfd37850839d6b9b86908308411b6672da81/jbosgi-spi-4.0.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.osgi.vfs:jbosgi-vfs30:2.0.0.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.osgi.vfs/jbosgi-vfs30/2.0.0.Final/4f76d7b2644262eb4e9428ce510b69bde5cbd084/jbosgi-vfs30-2.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.osgi.vfs/jbosgi-vfs30/2.0.0.Final/40f704e06154f6bbda547da051c29e2aaf406c1e/jbosgi-vfs30-2.0.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.osgi.vfs:jbosgi-vfs:2.0.0.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.osgi.vfs/jbosgi-vfs/2.0.0.Final/d5570e40ae5dd34bb8165bdacd0ef6786d4966c6/jbosgi-vfs-2.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.osgi.vfs/jbosgi-vfs/2.0.0.Final/1f8a37f8fff5f819d108b89339e0fa7c007dec4d/jbosgi-vfs-2.0.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:2.0.0-alpha-8">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-8/7f446d32e508ee54201c93318c72eef2ffb87e24/shrinkwrap-descriptors-api-base-2.0.0-alpha-8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-8/d109e83f5a0cf4fa9f931bd7747397d0c3f64213/shrinkwrap-descriptors-api-base-2.0.0-alpha-8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:2.0.0-alpha-8">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-8/fca9a421a27ddf52cc255c4d360d9b7c70689d05/shrinkwrap-descriptors-spi-2.0.0-alpha-8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-8/ed9ba1a2a40e8eef96216876c617dccc50c1e8de/shrinkwrap-descriptors-spi-2.0.0-alpha-8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-archive:2.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-api-maven-archive/2.2.0/f985b8983e259e1cd1f7111972952587f55d69a5/shrinkwrap-resolver-api-maven-archive-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-api-maven-archive/2.2.0/cf29ed95ed33c063b33c87592a78b133b239427d/shrinkwrap-resolver-api-maven-archive-2.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:2.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-api-maven/2.2.0/3f3572ecc3584a2e448b0e2cd2f961b0c7747d6d/shrinkwrap-resolver-api-maven-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-api-maven/2.2.0/43a3251a8847bc67227c87337393f8c2dca05c18/shrinkwrap-resolver-api-maven-2.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api:2.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-api/2.2.0/b512a2ae3fa1d746b97433b2b464f00c73a643c9/shrinkwrap-resolver-api-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-api/2.2.0/24261ad87f61f0d8678ce00c7dd1b5687a094478/shrinkwrap-resolver-api-2.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-depchain:pom:2.2.0">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-depchain/2.2.0/47141cb61de3ffb574f12725e614051ca46caca0/shrinkwrap-resolver-depchain-2.2.0.pom" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive:2.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-impl-maven-archive/2.2.0/c21794f1edfddf120c2f722d5ba217ce98537f8a/shrinkwrap-resolver-impl-maven-archive-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-impl-maven-archive/2.2.0/9fee71a2ccb004cae6461b9144984508de0ba81d/shrinkwrap-resolver-impl-maven-archive-2.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:2.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-impl-maven/2.2.0/ed5a86482c149ac1adf684f07d1c6a1e201f5373/shrinkwrap-resolver-impl-maven-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-impl-maven/2.2.0/b87279818738c5ca56b3a627bd34c0e1a8733c3e/shrinkwrap-resolver-impl-maven-2.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven-archive:2.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-spi-maven-archive/2.2.0/c0fb1a77ba5325b790466b3f0ed6079f80259c01/shrinkwrap-resolver-spi-maven-archive-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-spi-maven-archive/2.2.0/cee6227ffa81f64c73167e993e45f5112b930db7/shrinkwrap-resolver-spi-maven-archive-2.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven:2.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-spi-maven/2.2.0/bf88f04bd570375d68761d858286405f4fc13d9e/shrinkwrap-resolver-spi-maven-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-spi-maven/2.2.0/eda3c836845fc8b089b5c7ba38f01d7c49f676f4/shrinkwrap-resolver-spi-maven-2.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:2.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-spi/2.2.0/a38cdd583b2d764a00f9529b8034e0beb1a5d4ce/shrinkwrap-resolver-spi-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-spi/2.2.0/7af633716b6b1588cfef30f62e5b57ca1f7cfac1/shrinkwrap-resolver-spi-2.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap:shrinkwrap-api:1.2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap/shrinkwrap-api/1.2.2/f05699943b10575990f5bc975a2c92d05e7f8b9c/shrinkwrap-api-1.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap/shrinkwrap-api/1.2.2/47cdf324d104f5360393cee89e0bef2f212a5cb4/shrinkwrap-api-1.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap:shrinkwrap-impl-base:1.2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap/shrinkwrap-impl-base/1.2.2/7a69725ca8d5f0cdc47d27f879715ed46e34cf14/shrinkwrap-impl-base-1.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap/shrinkwrap-impl-base/1.2.2/6094a76c324034b8cd4d78e8195ce4b0eabaca36/shrinkwrap-impl-base-1.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.shrinkwrap:shrinkwrap-spi:1.2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap/shrinkwrap-spi/1.2.2/638002e3cb121abfa1957b13030bcd072d7d63fc/shrinkwrap-spi-1.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap/shrinkwrap-spi/1.2.2/11ec590f1038ac70105386b4644fab6a0b3d5c5c/shrinkwrap-spi-1.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss:jboss-vfs:3.1.0.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss/jboss-vfs/3.1.0.Final/d234479ff4ce2282789dedf378b052cde00bb543/jboss-vfs-3.1.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss/jboss-vfs/3.1.0.Final/9a7d9835a70481dd322601a8c173a83130490c1a/jboss-vfs-3.1.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jsoup:jsoup:1.7.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.7.2/d7e275ba05aa380ca254f72d0c0ffebaedc3adcf/jsoup-1.7.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.7.2/833f425e7a40d7fc88922370a072965dda8ee216/jsoup-1.7.2-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: org.osgi:org.osgi.core:6.0.0">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.osgi/org.osgi.core/6.0.0/c49acdc9ac62cf69ee49cb6f1905b4fdb79ea5c/org.osgi.core-6.0.0.jar!/" />
@@ -167,6 +904,45 @@
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.osgi/org.osgi.core/6.0.0/347531f45363ed10e222b03231d49bb7df016a4d/org.osgi.core-6.0.0-sources.jar!/" />
       </SOURCES>
+    </library>
+    <library name="Gradle: org.osgi:org.osgi.enterprise:5.0.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.osgi/org.osgi.enterprise/5.0.0/4f6e081c38b951204e2b6a60d33ab0a90bfa1ad3/org.osgi.enterprise-5.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.osgi/org.osgi.enterprise/5.0.0/ce21dd0f86eec988085796f46f1b13d434ac48/org.osgi.enterprise-5.0.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.slf4j:slf4j-api:1.7.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.slf4j:slf4j-log4j12:1.5.11">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.5.11/c3fbec782ff5fc7fa50cfeeb67502ded9efd58d9/slf4j-log4j12-1.5.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.5.11/a1a44534cf6a7c19966c81d7e8cc661eae5a75e8/slf4j-log4j12-1.5.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.sonatype.plexus:plexus-cipher:1.4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.sonatype.plexus:plexus-sec-dispatcher:1.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
     </library>
   </component>
   <component name="masterDetails">
