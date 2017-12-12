@@ -1,0 +1,13 @@
+configure(subprojects.findAll {!it.childProjects}) {
+	testIntegration {
+		ignoreFailures = false
+
+		testLogging {
+			events "started", "passed", "skipped", "failed", "standardOut", "standardError"
+			showExceptions true
+			exceptionFormat "full"
+			showCauses true
+			showStackTraces true
+		}
+	}
+}

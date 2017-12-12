@@ -1,19 +1,7 @@
-apply plugin: 'idea'
-
 buildscript {
 	dependencies {
-		classpath group: "com.liferay", name: "com.liferay.gradle.plugins", version: "3.5.23"
+		classpath group: "com.liferay", name: "com.liferay.gradle.plugins.defaults", version: "latest.release"
 	}
-
-	repositories {
-		maven {
-			url "https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public"
-		}
-	}
-}
-
-subprojects {
-	apply plugin: "com.liferay.plugin"
 
 	repositories {
 		mavenLocal()
@@ -23,3 +11,7 @@ subprojects {
 		}
 	}
 }
+
+apply plugin: "com.liferay.root.defaults.plugin"
+
+apply from: "build-ext.gradle"
